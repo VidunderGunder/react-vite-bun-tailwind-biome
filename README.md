@@ -16,7 +16,7 @@ bun dev
 
 ## Optional sync with OpenAPI (Swagger)
 
-Included is a way to generate a [TanStack query](https://tanstack.com/query/latest) client from your schema for type-safe integration with your backend, using [OpenAPI TypeScript](https://openapi-ts.dev/)
+Included is a way to generate a [TanStack query](https://tanstack.com/query/latest) client using [OpenAPI TypeScript](https://openapi-ts.dev/)
 
 Adjust synchronization script and `fetchClient` to point to your OpenAPI spec before running the sync:
 
@@ -40,7 +40,11 @@ const fetchClient = createFetchClient<paths>({
 });
 ```
 
-
 ```
 bun sync
 ```
+
+## Backend recommendations
+
+- [Go](https://go.dev/) + [Standard library's `net/http`](https://pkg.go.dev/net/http) + [Huma](https://huma.rocks/)
+- [ElysiaJS](https://elysiajs.com/) (Bun/TypeScript) + [Swagger plugin](https://elysiajs.com/plugins/swagger.html)
