@@ -1,6 +1,6 @@
 # React + Vite + Bun + Tailwind + Biome
 
-Personal starter for experiments
+My personal frontend starter
 
 Install [bun](https://bun.sh/)
 
