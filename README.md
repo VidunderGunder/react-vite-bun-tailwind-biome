@@ -46,5 +46,5 @@ bun sync
 
 ## Backend recommendations
 
-- [Go](https://go.dev/) + [Standard library's `net/http`](https://pkg.go.dev/net/http) + [Huma](https://huma.rocks/)
+- [Go](https://go.dev/) + [Standard library's `net/http`](https://pkg.go.dev/net/http) + [Huma](https://huma.rocks/) + [Goth](https://github.com/markbates/goth)
 - [ElysiaJS](https://elysiajs.com/) (Bun/TypeScript) + [Swagger plugin](https://elysiajs.com/plugins/swagger.html)
