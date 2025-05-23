@@ -20,7 +20,7 @@ Included is a way to generate a [TanStack query](https://tanstack.com/query/late
 
 Adjust synchronization script and `fetchClient` to point to your OpenAPI spec before running the sync:
 
-```json
+```js
 // package.json
 
 {
